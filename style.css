@@ -1,0 +1,157 @@
+/* Reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+
+
+/* Body */
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Welcome Screen */
+#welcome-screen {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#welcome-screen h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #f1f1f1;
+}
+
+#start-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #00c6ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#start-btn:hover {
+  background-color: #008ecf;
+}
+
+/* Game Container */
+.hide {
+  display: none;
+}
+
+#game-container {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Game Title */
+#game-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #f9f9f9;
+}
+
+/* Scoreboard */
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Game Board */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  font-size: 2.5rem;
+  background-color: #ffffff22;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.box:hover {
+  background-color: #ffffff44;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff4e50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background-color: #c0392b;
+}
+
+/* Message Box */
+#msg-container {
+  margin-bottom: 15px;
+}
+
+#msg {
+  font-size: 1.3rem;
+  color: #ffff00;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  background-color: #00000044;
+  font-size: 0.9rem;
+  color: #eee;
+  position: relative;
+  bottom: 0;
+}

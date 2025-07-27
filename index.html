@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AP Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="welcome-screen">
+    <h1>🎮 AP-Games </h1>
+    <button id="start-btn">Play Game</button>
+  </div>
+
+  <div id="game-container" class="hide">
+    <h1>Tic-Tac-Toe</h1>
+
+    <div id="msg-container" class="hide">
+      <p id="msg"></p>
+    </div>
+
+    <div class="scoreboard">
+      <p>Player X: <span id="x-score">0</span></p>
+      <p>Player O: <span id="o-score">0</span></p>
+    </div>
+
+    <div class="game-board">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <div class="controls">
+      <button id="reset-button">Reset</button>
+      <button id="new-button">New Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <p>🎮 AP Game | Created by Aftab Hussain © 2025</p>
+</footer>
+
+</html>
