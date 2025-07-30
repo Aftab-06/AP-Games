@@ -1,14 +1,21 @@
-# 🎮 AP Game - Tic-Tac-Toe
+# 🎮 AP Games - Tic Tac Toe
 
-This is a simple and fun **Tic-Tac-Toe** game project built using **HTML, CSS, and JavaScript**.  
-Players can take turns to play and enjoy a classic X and O style game in the browser.
+A simple and fun Tic-Tac-Toe game built using **HTML**, **CSS**, and **JavaScript**. Playable directly in the browser. Challenge a friend and test your strategy skills!
 
----
+## 🔗 Live Demo
 
-## 🔥 Features
+👉 [Play Now](https://aftab-06.github.io/AP-Games/)
 
-- 🕹️ Classic 3x3 Tic-Tac-Toe grid
-- 💡 Smart turn switching (X / O)
-- 🔄 Reset and New Game button
-- 🎉 Win detection with message display
-- 💻 Fully responsive design
+## 🛠 Tech Stack
+
+- ✅ HTML5
+- ✅ CSS3
+- ✅ JavaScript (Vanilla)
+
+## 🎯 Features
+
+- 🎲 Two-player mode (X vs O)
+- ✨ Stylish and responsive UI
+- ❗ Win detection with visual indication
+- 🔁 New Game & Reset buttons
+- 💡 Simple logic with easy-to-read code
